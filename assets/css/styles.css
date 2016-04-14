@@ -1,0 +1,90 @@
+/* pink #00a79d */
+/* green #ed2a7b */
+
+*, *:before, *:after{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font: 400 16px/1.4 'Lato', Avenir, 'Century Gothic', sans-serif;
+}
+
+a{
+  transition: .2s ease opacity;
+}
+
+a:hover{
+  opacity: .6;
+}
+
+.container{
+  max-width: 58.75rem;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+.button{
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  border: 1px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.brand{
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+}
+
+.brand small{
+  font-size: 100%;
+  font-weight: 400;
+}
+
+.reads{
+  padding: 2.25rem 0;
+  color: #fff;
+}
+
+.hot-reads{
+  background: #ed2a7b;
+}
+
+.cool-reads{
+  background: #00a79d;
+}
+
+.reads h1{
+  font-weight: 400;
+  margin-bottom: .275rem;
+  text-transform: uppercase;
+}
+
+.audience{
+  margin: 0;
+  font-size: 1.125rem;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+.covers{
+  display: block;
+  margin: 2rem auto;
+}
+
+.covers img{
+  max-width: 100%;
+  height: auto;
+}
+
+.logo{
+  display: block;
+  margin-top: 3rem;
+}
